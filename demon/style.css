@@ -1,0 +1,42 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap');
+</style>
+
+:root{
+    --primary-color:green;
+    --primary-color:yellow;
+    --primary-color:blue;
+}
+
+*{
+    box-sizing: border-box;
+    margin:opx;
+    padding:opx;
+    font-family: "poppins";
+    font-size: 16px;
+    background-color: blue;
+}
+
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo-container{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center
+}
+
+#log{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+.nav-bar>ul{
+    display: flex;
+    justify-content: space-between;
+    margin:opx 40px;
+    align-items: centre;
+}
+
