@@ -3,8 +3,8 @@
 
 :root{
     --primary-color:green;
-    --primary-color:yellow;
-    --primary-color:blue;
+    --secondary-color:yellow;
+    --background-color:blue;
 }
 
 *{
@@ -13,30 +13,43 @@
     padding:opx;
     font-family: "poppins";
     font-size: 16px;
-    background-color: blue;
+    background-color: var (--background);
 }
 
 .nav-bar{
     display:flex;
     justify-content: space-between;
+    margin: opx 40px;
+    align-items: centre;
 }
 
 .logo-container{
-    display:flex;
-    justify-content:flex-start;
-    align-items:center
-}
-
-#log{
-    width: 70px;
-    height: 70px;
-    margin-right: 20px;
-}
-
-.nav-bar>ul{
     display: flex;
-    justify-content: space-between;
-    margin:opx 40px;
+    justify-content: flex-start;
     align-items: centre;
 }
+
+#logo{
+    Width:70px
+    height:70px
+    margin-right:20px
+}
+
+.nav-bar > ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-bar > ul .li{
+    margin: opx 20px;
+    front-weight: 400px;
+    front-size: 16px;
+}   
+
+#index{
+    border-bottom: 2px solid green
+}
+   
 
